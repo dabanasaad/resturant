@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script defer src="pro.js"></script>
+  </head>
+  <body>
+    <div class="bluri">
+    <nav class="navbar">
+      <ul class="navbuttons">
+        <li>
+          <a class="titlecolor menupos menu" href="">Menu</a>
+        </li>
+        <li><a class="atmo" href="">Atmosphere</a></li>
+        <li><a class="loc" href="">Location</a></li>
+      </ul>
+    </nav>
+    <h1 class="header">Our resturant</h1>
+    <div class="imgs">
+      <img src="img1.webp" alt="" /> <img class="img2" src="img2.jpg" alt="" />
+    </div>
+    <div class="about">
+      <h6>About us</h6>
+      <p>
+        Ah, welcome, esteemed guest, to our illustrious establishment, where
+        <br />
+        culinary artistry meets an ambiance of refined elegance. <br />
+        As you peruse our meticulously curated menu allow your senses <br />
+        to be tantalized by the symphony of flavors awaiting your indulgence.
+        <br />
+        Our starters are but a prelude, a delicate overture to the grand feast
+        that lies ahead. <br />
+        May I recommend the velvety bisque, a harmonious blend of the freshest
+        seafood <br />
+        or perhaps the heirloom tomato tartare, a vibrant mosaic of color and
+        taste.
+      </p>
+    </div>
+
+    <hr class="separator" size="2" color="black" />
+    <hr class="separator2" size="2" color="#b1a550" />
+  
+</html>
+<h1>Welcome to The Gourmet Haven</h1>
+<p class="bla">Where culinary excellence meets a cozy and inviting ambiance.</p>
+<div class="menu-section Appetizers">
+  <h2>Appetizers</h2>
+  <div class="menu-item">
+    <p><strong>Truffle Parmesan Fries</strong></p>
+    <p>Crispy fries topped with truffle oil and parmesan cheese.</p>
+  </div>
+  <div class="menu-item">
+    <p><strong>Lobster Bisque</strong></p>
+    <p>A rich and creamy lobster soup, served with a hint of sherry.</p>
+  </div>
+</div>
+<div class="menu-section maincourse">
+  <h2>Main Courses</h2>
+  <div class="menu-item">
+    <p><strong>Grilled Ribeye Steak</strong></p>
+    <p>
+      Succulent ribeye steak grilled to perfection, served with garlic mashed
+      potatoes and seasonal vegetables.
+    </p>
+  </div>
+  <div class="menu-item">
+    <p><strong>Pan-Seared Sea Bass</strong></p>
+    <p>
+      Delicate sea bass pan-seared and served with lemon butter sauce,
+      accompanied by wild rice and asparagus.
+    </p>
+  </div>
+  <div class="menu-item">
+    <p><strong>Vegan Mushroom Risotto</strong></p>
+    <p>Creamy risotto with a mix of wild mushrooms, topped with fresh herbs.</p>
+    <img class="main-img" src="main course.avif" alt="" />
+  </div>
+</div>
+<div class="menu-section dessert">
+  <h2>Desserts</h2>
+  <div class="menu-item">
+    <p><strong>Chocolate Lava Cake</strong></p>
+    <p>
+      Rich and gooey chocolate cake with a molten center, served with vanilla
+      ice cream.
+    </p>
+  </div>
+  <div class="menu-item">
+    <p><strong>Classic Crème Brûlée</strong></p>
+    <p>Traditional vanilla custard with a caramelized sugar top.</p>
+    <img class="Appetizer-img" src="ap.avif" alt="" />
+    <img class="desert" src="desert.jpg" alt="" />
+  </div>
+  <p>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+   
+    <br />
+    <br />
+    <br />
+    <br />
+    <hr class="separator3" size="2" color="black" />
+    <hr class="separator4" size="2" color="#b1a550" />
+  </p>
+</div>
+<div class="Atmosphere-sec">
+  <h1 class="atmop"> Atmosphere</h1>
+  <div id="borderedBox">
+   <img class="imgbox"  src="img1.webp" alt="">
+</div>
+  <div class="atmo-imgs">
+    <img class="img-1 imgss active pointer" src="img1.webp" data-imgnum="1" alt="">
+    <img class="img-2 imgss deactive pointer" src="img2.jpg" data-imgnum="2" alt="">
+    <img class="img-3 imgss deactive pointer" src="img3.jpg" data-imgnum="3" alt="">
+    <img class="img-4 imgss deactive pointer" src="img4.jpg" data-imgnum="4" alt="">
+    <img class="img-5 imgss deactive pointer" src="img5.jpg" data-imgnum="5" alt="">
+    <img class="img-6 imgss deactive pointer" src="img6.jpg" data-imgnum="6" alt="">
+
+    
+  </div>
+  <p class="atmo-talk">Step into the vibrant atmosphere <br> of Boogie Restaurant, <br>
+    where each visit is a celebration <br> of flavors and community. <br>
+    Our cozy yet lively ambiance <br> invites you to relax and enjoy <br>
+    delicious meals prepared with fresh,<br> locally sourced ingredients. <br>
+    Whether it's a romantic dinner,<br> a gathering of friends, <br>
+    or a special occasion,<br> Boogie Restaurant promises <br>
+    an unforgettable dining <br>
+     experience filled with warmth and joy.</p>
+
+</div>
+<hr class="separator5" size="2" color="black" />
+<hr class="separator6" size="2" color="#b1a550" />
+<p class="locp" >Location</p>
+<div id="map" ></div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>
+<div class="contact-us">
+  <button class="contact-btn pointer">contact us</button>
+  <div class="contact-window">
+    <p class="x">X</p>
+    <p>Email:hhhhh@gmail.com <br>
+    Phone-number:99883849484 <br>
+  Instagram:boogie12234 <br>
+Facebook:boogie1234 <br>
+X:boogie32</p>
+  </div>
+</div>
+</body>
+
